@@ -85,3 +85,36 @@ body {
   text-align: center;
   margin-top: 155px;
 }
+
+/*body-right-text*/
+.body-right-text {
+  margin-top: 100px;
+  margin-left: 50%;
+}
+
+.body-right-text-title {
+  font-family: fantasy;
+  color: #d18229;
+  font-size: 36px;
+}
+
+.body-right-text-content {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: right;
+  margin-right: 75%;
+}
+
+.container {
+  margin-left: 50%;
+}
+
+.row {
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.ribbon {
+  width: 100px;
+}
