@@ -78,6 +78,12 @@ body {
 }
 
 /*上：bg、header*/
+
+/*dropdowns*/
+.dropdown {
+  align-items: left;
+}
+
 /*top-title*/
 .top-title {
   font-family: fantasy;
@@ -117,4 +123,10 @@ body {
 
 .ribbon {
   width: 100px;
+}
+
+.footer {
+  color: #ffc936;
+  text-align: center;
+  margin-top: 10%;
 }
