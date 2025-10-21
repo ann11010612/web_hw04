@@ -1,0 +1,87 @@
+body {
+  background-image: url("/images/WebDesign07.png");
+  background-attachment: scroll;
+  background-size: cover;
+  height: 1506px;
+}
+
+.eagle-wings {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.wing-label {
+  position: absolute;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Arial", sans-serif;
+  font-size: 28px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8); /*水平偏移、垂直偏移、模糊程度、顏色*/
+  padding: 4px 8px; /*上下、左右*/
+  background: rgba(35, 35, 35, 1);
+  border-radius: 4px;
+}
+
+/* 左翅膀位置 */
+.wing-label.left {
+  left: 120px;
+  top: 240px;
+}
+
+/* 右翅膀位置 */
+.wing-label.right {
+  right: 10px;
+  top: 240px;
+}
+
+/* 第2列 */
+.wing-label.left.second {
+  top: 285px;
+  left: 140px;
+}
+.wing-label.right.second {
+  top: 285px;
+  right: 20px;
+}
+
+/* 第3列 */
+.wing-label.left.third {
+  top: 330px;
+  left: 160px;
+}
+.wing-label.right.third {
+  top: 330px;
+  right: 40px;
+}
+
+/* 第4列 */
+.wing-label.left.fourth {
+  top: 375px;
+  left: 180px;
+}
+.wing-label.right.fourth {
+  top: 375px;
+  right: 60px;
+}
+
+/* 第5列 */
+.wing-label.left.last {
+  top: 415px;
+  left: 200px;
+}
+.wing-label.right.last {
+  top: 415px;
+  right: 80px;
+}
+
+/*上：bg、header*/
+/*top-title*/
+.top-title {
+  font-family: fantasy;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 155px;
+}
